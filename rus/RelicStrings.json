@@ -51,7 +51,7 @@
     "FLAVOR": "Украшен знаменитой подписью лебедя Мерека.",
     "DESCRIPTIONS": [
       "Следующие #b",
-      " раза при разыгравание карты, которую можно улучшить, #yУлучшает её навсегда.",
+      " раза при разыгрывание карты, которую можно улучшить, #yУлучшает её навсегда.",
       "Следующая разыгранная карта, которую можно улучшить, #yУлучшится навсегда.",
       "Эта реликвия израходована."
     ]
@@ -180,118 +180,118 @@
     "NAME": "Перекрученная пружина",
     "FLAVOR": "Кто-то перекрутил её и её больше нельзя вернуть в прежнее положение.",
     "DESCRIPTIONS": [
-      "Даёт [E] в начале вашего хода. Your discard pile will only shuffle into your draw pile if your draw pile is empty at the end of your turn."
+      "Даёт [E] в начале вашего хода. Ваша стопка сброса перетасовывается в стопку добора, только если стопка добора пустая в конце хода."
     ]
   },
   "reliquary:Knoch": {
-    "NAME": "Knoch",
-    "FLAVOR": "It keeps sinking to the bottom of your pack.",
+    "NAME": "Грузило",
+    "FLAVOR": "Продолжает опускать на дно вашего рюкзака.",
     "DESCRIPTIONS": [
-      "Enemies with #b",
-      "% or less health are #yWeak."
+      "Если у врага здоровье #b",
+      "% или меньше, то накладывает на него #yСлабость."
     ],
     "NOTE_FOR_TRANSLATORS": "A knoch is just a fishing sinker: https://en.wikipedia.org/wiki/Fishing_sinker"
   },
   "reliquary:LoveEmittingDiode": {
-    "NAME": "Love-Emitting Diode",
-    "FLAVOR": "Spread the love, pursuant to the principles of the inverse-square law.",
+    "NAME": "Любвоизлучающий диод",
+    "FLAVOR": "Распространяет любовь согласно закону обратных квадратов.",
     "DESCRIPTIONS": [
-      "Positive #yFocus affects your rightmost Orb #b",
-      " times."
+      "Положительный #yФокус действует на самую правую сферу #b",
+      " раза."
     ],
     "NOTE_FOR_TRANSLATORS": "This is a play on light-emitting diodes, or LEDs."
   },
   "reliquary:MedicineBall": {
-    "NAME": "Medicine Ball",
-    "FLAVOR": "If only you had someone to toss this around with...",
+    "NAME": "Медицинский мяч",
+    "FLAVOR": "Если бы только у вас было бы с кем сыграть...",
     "DESCRIPTIONS": [
-      "You have additional #yStrength equal to the highest #yStrength among enemies (0 minimum)."
+      "Даёт дополнительную силу, которая равна максимальной #yСиле среди врагов (минимум - 0)."
     ]
   },
   "reliquary:MudwinsCradle": {
-    "NAME": "Mudwin's Cradle",
-    "FLAVOR": "Most popular desk toy.",
+    "NAME": "Колыбель Ньютона",
+    "FLAVOR": "Популярная настольная игрушка.",
     "DESCRIPTIONS": [
-      "Whenever you exit #yDivinity, gain #b",
-      " #yMantra for each time you entered #yDivinity this combat (max ",
+      "Каждый раз при выходе из #yБожественности, дает #b",
+      " #yМантры за каждый вход в #yБожественность в этом бою (максимум - ",
       " )."
     ],
     "NOTE_FOR_TRANSLATORS": "This is a Newton's Cradle. 'Mudwin' is just a dumb name made up to sound like 'Newton.'"
   },
   "reliquary:NewFriend": {
-    "NAME": "New Friend",
+    "NAME": "Новый друг",
     "FLAVOR": "This little guy won't stop following you... and boy is he hungry.",
     "DESCRIPTIONS": [
-      "Strikes and Defends #yExhaust #b",
-      "% of the time."
+      "Удары и Обороны с #b",
+      "%-ой вероятностью #yСжигаются."
     ]
   },
   "reliquary:OuijaBoard": {
-    "NAME": "Ouija Board",
-    "FLAVOR": "Only as mysterious as you make it.",
+    "NAME": "Доска Уиджа",
+    "FLAVOR": "Загадочна настолько, насколько вы ей это позволите.",
     "DESCRIPTIONS": [
-      "Once per turn, pay the cost of a card in your discard pile plus #b1 to play it and shuffle it into your draw pile.",
-      "I've already used that this turn.",
-      "My discard pile is #rempty.",
-      "I don't have enough Energy for the cards in my discard pile."
+      "Раз за ход, вы можете разыграть карту из стопки сброса за стоимость плюс #b1 и перетасовать эту карту в стопку добора.",
+      "Я уже использовал это в этом ходу.",
+      "Моя колода сброса #rпустая.",
+      "У меня недостаточно энергии для разыгрывания карт в стопке сброса."
     ]
   },
   "reliquary:PartyBalloon": {
-    "NAME": "Party Balloon",
-    "FLAVOR": "Hold on to that string, or you'll never see it again!",
+    "NAME": "Праздничный шар",
+    "FLAVOR": "Держите его за веревку или больше никогда не увидите!",
     "DESCRIPTIONS": [
-      "#yPower cards start each combat in the top half of your draw pile."
+      "#yТаланты находятся в первой половине стопки добора в начале боя."
     ]
   },
   "reliquary:PorcupineQuills": {
-    "NAME": "Porcupine Quills",
-    "FLAVOR": "If these get ya, you must have really deserved it.",
+    "NAME": "Иглы дикобраза",
+    "FLAVOR": "Если это сработает, то вы будете удовлетворены.",
     "DESCRIPTIONS": [
-      "Whenever you receive #b",
-      " or more unblocked damage, deal that much damage back."
+      "Каждый раз при получении #b",
+      " или более незаблокированного урона, наносит столько же урон обратно."
     ]
   },
   "reliquary:PrincelyHelmet": {
-    "NAME": "Princely Helmet",
-    "FLAVOR": "Way too small to fit on your head. If it were Ours, We'd make it much bigger.",
+    "NAME": "Княжеский шлем",
+    "FLAVOR": "Слишком маленький для вашей головы. Если бы это было Наше, то Мы сделали бы его намного больше.",
     "DESCRIPTIONS": [
-      "Double the first X #yBlock you gain each combat, where X is #b",
-      " times the current Act."
+      "Удвавивает первые X получаемой #yЗащиты в каждом бою, где X это #b",
+      " умноженное на номер текущего Акта."
     ],
     "NOTE_FOR_TRANSLATORS": "This is the headgear of the Prince of All Cosmos from the Katamari Damacy series."
   },
   "reliquary:PurpleTingedLeaf": {
-    "NAME": "Purple-Tinged Leaf",
-    "FLAVOR": "This leaf has the appearance, unique in all the plant kingdom, of having been drawn by a grade schooler.",
+    "NAME": "Лист с пурпурным оттенком",
+    "FLAVOR": "Этот лист имеет вид, уникальный для всего царства растений, так как он был нарисован школьником.",
     "DESCRIPTIONS": [
-      "Upon pickup, choose an #yAttack. Whenever you play this card, heal #b1 HP.",
-      "Choose a card for ",
-      "Whenever you play the chosen ",
-      ", heal #b1 HP."
+      "При получении выберите #yАтаку. Каждый раз, когда эта карта разыгрывается, восстанавливает #b1 ОЗ.",
+      "Выберите карту для ",
+      "При каждом разыгрывании выбранной карты ",
+      ", восстанавливает #b1 ОЗ."
     ]
   },
   "reliquary:Pushpin": {
-    "NAME": "Pushpin",
-    "FLAVOR": "Sometimes used to solve murders, but the most skilled assassins can use them to commit one.",
+    "NAME": "Канцелярская кнопка",
+    "FLAVOR": "Иногда используется для раскрытия убийств, но самые опытные Ассасины использует их для совершения убийств.",
     "DESCRIPTIONS": [
-      "The cards in your opening hand #yRetain for the rest of combat."
+      "Карты в первой руке получают #yОставляется до конца боя."
     ]
   },
   "reliquary:QuartzCube": {
-    "NAME": "Quartz Cube",
-    "FLAVOR": "It's like an ice cube that never melts, but also isn't cold.",
+    "NAME": "Кварцевый куб",
+    "FLAVOR": "Он как кубик льда, который никогда не тает и не холодный.",
     "DESCRIPTIONS": [
-      "At the start of each combat with #b",
-      " or more enemies, apply #b",
-      " #yStunned and #b",
-      " #yInvincible to one."
+      "В начале каждого боя с #b",
+      " или более врагами, накладывает #b",
+      " #yОглушения и #b",
+      " #yНепобедимости на одного."
     ]
   },
   "reliquary:RadioactivePellet": {
-    "NAME": "Radioactive Pellet",
-    "FLAVOR": "The secret weapon of the world's most dastardly villains.",
+    "NAME": "Радиоактивная пуля",
+    "FLAVOR": "Секретное оружие самых подлых злодеев в мире.",
     "DESCRIPTIONS": [
-      "#yPoison doesn't decrement."
+      "#yЯд не уменьшается."
     ]
   },
   "reliquary:RedCape": {

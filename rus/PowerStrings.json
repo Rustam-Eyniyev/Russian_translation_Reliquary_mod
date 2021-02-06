@@ -7,34 +7,34 @@
     ]
   },
   "reliquary:InvincibleTurns": {
-    "NAME": "Invincible",
+    "NAME": "Непобедимость",
     "DESCRIPTIONS": [
-      "Can't be harmed this turn.",
-      "Can't be harmed for the next #b",
-      " turns."
+      "Не получает урона в этом ходу.",
+      "Не получает урона следующие #b",
+      " хода."
     ]
   },
   "reliquary:LesserDuplication": {
-    "NAME": "Lesser Duplication",
+    "NAME": "Услабленное удвоение",
     "DESCRIPTIONS": [
-      "Your next cost 0 or 1 card is played twice this turn.",
-      "Your next #b",
-      " cost 0 or 1 cards are played twice this turn."
+      "Следующая разыгранная карта, со стоимостью 0 или 1, в этом ходу, будет разыграна дважды.",
+      "Следующие #b",
+      " разыгранные карты, со стоимостью 0 или 1, в этом ходу, будут разыграны дважды."
     ]
   },
   "reliquary:ReduceColorlessCost": {
-    "NAME": "Pallor",
+    "NAME": "Бледность",
     "DESCRIPTIONS": [
-      "The next Colorless card you play costs #b1 less.",
-      "The next #b",
-      " Colorless cards you play cost #b1 less."
+      "Следующая разыгранная Бесцветная карта будет стоить на #b1 меньше.",
+      "Следующие #b",
+      " разыгранные Бесцветные карты стоят на #b1 меньше."
     ]
   },
   "reliquary:StudyPlus": {
-    "NAME": "Cram",
+    "NAME": "Обучение",
     "DESCRIPTIONS": [
-      "At the end of your turn, shuffle #b",
-      " #yInsight+ into your draw pile."
+      "В конце хода замешивает #b",
+      " #yОзарение+ в стопку добору."
     ]
   },
   "reliquary:Taunt": {
