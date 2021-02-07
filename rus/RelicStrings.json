@@ -26,7 +26,7 @@
     "NAME": "Закладка",
     "FLAVOR": "\"Секундочку, где я был...\"",
     "DESCRIPTIONS": [
-      "В начале каждого боя, берёте дополнительную карту за каждую #yНачальную карту в колоде"
+      "В начале каждого боя, вы берёте доп. карту за каждую #yНачальную карту в колоде"
     ]
   },
   "reliquary:Boomerang": {
@@ -158,7 +158,7 @@
     "FLAVOR": "Кто-то отрезал бивень у слона, чтобы вырезать из него бивень меньшего размер. Но зачем?",
     "DESCRIPTIONS": [
       "Каждый #b",
-      "-ый ход, когда #yОставляется #yЧудо, добавляет #yЧудо в руку."
+      "-ый ход, когда #yОставляется #yЧудо, добавляет карту #yЧудо в руку."
     ]
   },
   "reliquary:JackalopeAntler": {
@@ -172,7 +172,7 @@
     "NAME": "Убийственная таблетка",
     "FLAVOR": "Смотрелось бы круто сзади кожанной куртки.",
     "DESCRIPTIONS": [
-      "Когда вы накладываете #yЯд первый раз за ход на каждого врага, то #Яд срабатывает сразу."
+      "Когда вы накладываете #yЯд первый раз за ход на каждого врага, то #yЯд срабатывает сразу."
     ],
     "NOTE_FOR_TRANSLATORS": "This is the symbol of the motorcycle gang from Akira."
   },
@@ -205,7 +205,7 @@
     "NAME": "Медицинский мяч",
     "FLAVOR": "Если бы только у вас было бы с кем сыграть...",
     "DESCRIPTIONS": [
-      "Даёт дополнительную силу, которая равна максимальной #yСиле среди врагов (минимум - 0)."
+      "Даёт дополнительную силу, которая равна максимальной #yСиле среди врагов (мин. - 0)."
     ]
   },
   "reliquary:MudwinsCradle": {
@@ -213,7 +213,7 @@
     "FLAVOR": "Популярная настольная игрушка.",
     "DESCRIPTIONS": [
       "Каждый раз при выходе из #yБожественности, дает #b",
-      " #yМантры за каждый вход в #yБожественность в этом бою (максимум - ",
+      " #yМантры за каждый вход в #yБожественность в этом бою (макс. - ",
       " )."
     ],
     "NOTE_FOR_TRANSLATORS": "This is a Newton's Cradle. 'Mudwin' is just a dumb name made up to sound like 'Newton.'"
@@ -230,7 +230,7 @@
     "NAME": "Доска Уиджа",
     "FLAVOR": "Загадочна настолько, насколько вы ей это позволите.",
     "DESCRIPTIONS": [
-      "Раз за ход, вы можете разыграть карту из стопки сброса за стоимость плюс #b1 и перетасовать эту карту в стопку добора.",
+      "Один раз за ход, вы можете разыграть карту из стопки сброса за стоимость плюс #b1 и перетасовать эту карту в стопку добора.",
       "Я уже использовал это в этом ходу.",
       "Моя колода сброса #rпустая.",
       "У меня недостаточно энергии для разыгрывания карт в стопке сброса."
@@ -302,49 +302,49 @@
     ]
   },
   "reliquary:RedPaperclip": {
-    "NAME": "Red Paperclip",
-    "FLAVOR": "A powerful symbol of barter.",
+    "NAME": "Красная скрепка",
+    "FLAVOR": "Символ мощного обмена",
     "DESCRIPTIONS": [
-      "Gain [E] at the start of your turn. Replaces #b",
-      " random Common or #bUncommon relics."
+      "Даёт [E] в начале вашего хода. Заменяет случайные #b",
+      " Обычные или #bНеобычные реликвии."
     ]
   },
   "reliquary:RoseTintedGlasses": {
-    "NAME": "Rose-Tinted Glasses",
-    "FLAVOR": "You know what? Things aren't so bad.",
+    "NAME": "Розовые очки",
+    "FLAVOR": "А ведь всё не так уж и плохо.",
     "DESCRIPTIONS": [
-      "The first #b",
-      " times you draw a #yStatus each combat, #yExhaust it and draw a card."
+      "В каждом бою #yСжигает первые #b",
+      " #yСтатуса, которые вы берёте в руку и за каждый вы берёте карту."
     ]
   },
   "reliquary:RosewoodLute": {
-    "NAME": "Rosewood Lute",
-    "FLAVOR": "Anyway, here's \"Wonderspire.\"",
+    "NAME": "Лютня из розового дерева",
+    "FLAVOR": "Варлоку заплатите чеканной монетой",
     "DESCRIPTIONS": [
-      "Whenever you block damage exactly, gain [E] next turn."
+      "Даёт [E] на следующий ход, если ваша #yЗащита ровно заблокирует Атаку ВСЕХ врагов."
     ],
     "NOTE_FOR_TRANSLATORS": "The flavor text is a reference to the song 'Wonderwall' by Oasis."
   },
   "reliquary:SculptingSteel": {
-    "NAME": "Sculpting Steel",
-    "FLAVOR": "Malleable as clay one second, hard as stone the next.",
+    "NAME": "Стальная скульптура",
+    "FLAVOR": "Тягучая как клей и тяжелая как камень.",
     "DESCRIPTIONS": [
-      "Upon pickup, becomes a copy of a random Common, #bUncommon, #yRare, or #yShop relic you already have."
+      "При получении становится копией случайной Обычной, #bНеобычной, #yРедкой, или реликвией #yТорговца, среди тех, которые у вас уже есть."
     ],
     "NOTE_FOR_TRANSLATORS": "This is a reference to the Magic card Sculpting Steel, which has some existing translations: https://scryfall.com/search?q=%21%E2%80%9CSculpting+Steel%E2%80%9D+set%3A2xm+lang%3Aany&unique=prints"
   },
   "reliquary:SharkskinSheath": {
-    "NAME": "Sharkskin Sheath",
-    "FLAVOR": "If only you had a sharkskin knife to put in it.",
+    "NAME": "Ножна из акульей кожи",
+    "FLAVOR": "Предназначена для ножа из акульей кожи.",
     "DESCRIPTIONS": [
-      "Whenever you end your turn with no cards in hand, draw a card next turn."
+      "Когда у вас нет карт в руке в конце хода, то на следующий ход вы берёте доп. карту."
     ]
   },
   "reliquary:ShortFuse": {
-    "NAME": "Short Fuse",
-    "FLAVOR": "It might blow at any moment.",
+    "NAME": "Генератор вспыльчивости",
+    "FLAVOR": "Он может взорваться в любой момент.",
     "DESCRIPTIONS": [
-      "Your #yLightning Orbs target the enemy with the least HP."
+      "Сферы #yМолнии бьют по врагу с наименьшим ОЗ."
     ],
     "NOTE_FOR_TRANSLATORS": "To have a 'short fuse' means you get angry easily."
   },
@@ -366,40 +366,40 @@
     ]
   },
   "reliquary:SilkGlove": {
-    "NAME": "Silk Glove",
-    "FLAVOR": "Left behind by a fancy lady who doesn't mess around.",
+    "NAME": "Шёлковая перчатка",
+    "FLAVOR": "Оставлена леди, которая не любит церемониться.",
     "DESCRIPTIONS": [
-      "Whenever you would discard a single card at the end of your turn, #yRetain it."
+      "Если в конце хода остается в руках одна карта, то она не сбрасывается, а #yОставляется."
     ]
   },
   "reliquary:Solitaire": {
-    "NAME": "Solitaire",
-    "FLAVOR": "You dreamed of it, once. How it crossed over into reality is a mystery.",
+    "NAME": "Солитер",
+    "FLAVOR": "Вы мечтали об этом. Теперь ваша мечта чудесным образом воплотилась в реальность.",
     "DESCRIPTIONS": [
-      "You may upgrade #pPurple cards a second time.",
-      "Innate. NL Shuffle a *Beta+ into your draw pile. NL Exhaust.",
-      "Innate. NL At the start of each turn, add a *Smite+ into your hand.",
-      "Retain. NL Enter Divinity. NL Die in !M! turns. NL Exhaust.",
-      "Deal !D! damage. NL Add a *Smite+ into your hand.",
-      "Put a *Miracle+ into your hand at the start of your next X+2 turns. NL Exhaust.",
-      "Shuffle an *Expunger+ with X+1 into your draw pile. NL Exhaust.",
-      "Retain. NL If you are in Wrath, gain !M! Strength this turn, otherwise enter Wrath. NL Exhaust.",
-      "Gain !B! Block. NL Add a *Safety+ into NL your hand.",
-      "Innate. NL At the start of your turn, gain [W] NL and increase this gain by !M!.",
-      "Retain. NL Deal !D! damage !M! times.",
-      "Choose 1 of 3 Attacks of any color and add !M! copies to your hand. NL They cost 0 this turn. NL Exhaust.",
-      "Deal !D! damage. NL If Fatal, Upgrade a random card in your deck twice. NL Exhaust.",
-      "Innate. NL Whenever a card is created during combat, Upgrade it.",
-      "Put !M! cards from your discard pile into your hand and Retain them. NL Enter Calm. NL End your turn.",
-      "Choose a card in your draw pile. NL Play the chosen card !M! times and exhaust it. NL Exhaust.",
-      "Deal !D! damage. NL Shuffle a NL *Through *Violence+ into your draw pile.",
-      "Retain. NL Deal !D! damage. NL When Retained, lower its cost by !M! this combat.",
-      "Scry !M!. NL Draw cards until your hand is full. NL Exhaust.",
-      "At the end of your turn, shuffle an *Insight+ into your draw pile.",
-      "Gain !B! Block. NL The next Attack you play costs 0 and deals !M! additional damage.",
-      "Retain. NL Enter Calm.",
-      "Next turn, draw !M! card. Take an extra turn after this one. NL End your turn. NL Exhaust.",
-      "Retain. NL Gain !M! Mantra. When Retained, increase Mantra gained by %d (max %d)."
+      "Позволяет улучшать #pФиолетовые карты второй раз.",
+      "Начальная. NL Добавляет карту *Бета+ в стопку добора. NL Сжигается.",
+      "Начальная. NL Добавляет карту *Кара+ в руку в начале каждого вашего хода.",
+      "Оставляется. NL Перейти в Божественность. NL Вы умрёте через !M! хода. NL Сжигается.",
+      "Наносит !D! урона. NL Добавляет карту *Кара+ в руку.",
+      "В начале X+2 ваших след. ходов добавляет карту *Чудо+ в руку. NL Сжигается.",
+      "Добавляет карту *Изничтожитель+ с X+1 в стопку добора. NL Сжигается.",
+      "Оставляется. NL Перейти в Гнев. NL В Гневе: даёт !M! Силы до конца хода. NL Сжигается.",
+      "Даёт !B! Защиты. NL Добавляет карту NL *Пристанище+ в руку.",
+      "Начальная. NL Даёт [W] и повышает даваемое кол-во на !M! в начале каждого вашего хода.",
+      "Оставляется. NL Наносит !D! урона !M! раза.",
+      "Выберите 1 из 3 Атак случ. цвета и добавьте !M! её копий в руку. Она стоит 0 до конца вашего хода NL Сжигается.",
+      "Наносит !D! урона. NL Улучшает случайную карту в колоде дважды, если Казнит врага. NL Сжигается.",
+      "Начальная. NL Добавленные карты автоматически Улучшаются.",
+      "Положите !M! карты из стопки сброса в руку и Оставьте их. NL Перейти в Спокойствие. NL Завершает ваш ход.",
+      "Выберите карту в стопке добора. NL Разыграйте её !M! раза, а затем Сожгите. NL Сжигается.",
+      "Наносит !D! урона. NL Добавляет карту NL *Путем *Насилия+ в стопку добора.",
+      "Оставляется. NL Наносит !D! урона. NL Снижает свою стоимость в этом бою на !M! в этом бою, когда Оставляется.",
+      "Вы Предсказываете !M! карты. NL Вы берёте карты, пока не наберёте полную руку. NL Сжигается.",
+      "Добавляет в стопку добора карту *Озарение+ в конце каждого вашего хода.",
+      "Даёт !B! Защиты. NL След. разыгранная Атака стоит 0 и наносит на !M! больше урона.",
+      "Остааляется. NL Перейти в Спокойствие.",
+      "Вы берёте !M! доп. карту на следующий ход. Вы получаете дополнительный ход. NL Завершает ваш ход. NL Сжигается.",
+      "Оставляется. NL Даёт !M! Мантры и повышает это кол-во на %d (макс. %d) в этом бою, когда Оставляется."
     ],
     "NOTE_FOR_TRANSLATORS": [
       "These are second upgrades, so all but the first string are slight variants of Watcher cards.",
@@ -408,67 +408,67 @@
     ]
   },
   "reliquary:Stiletto": {
-    "NAME": "Stiletto",
-    "FLAVOR": "Designed to slip between the plates and links of most any armor.",
+    "NAME": "Стилет",
+    "FLAVOR": "Отлично вонзается через звенья практически любой брони.",
     "DESCRIPTIONS": [
-      "Enemies gain #b",
-      "% less #yBlock."
+      "Враги получают на #b",
+      "% меньше #yЗащиты."
     ]
   },
   "reliquary:Tamtam": {
-    "NAME": "Tam-Tam",
-    "FLAVOR": "GONG.",
+    "NAME": "Гонг",
+    "FLAVOR": "Поиграем в \"Что?Где?Когда?\"?",
     "DESCRIPTIONS": [
-      "Whenever you start your turn with #yBlock, you and ALL enemies gain #b1 #yStrength."
+      "Даёт #b1 #yСилу вам и ВСЕМ врагам, если в начале вашего хода у вас есть #yЗащита."
     ]
   },
   "reliquary:TatteredRug": {
-    "NAME": "Tattered Rug",
-    "FLAVOR": "What, you think anyone can just set up shop?",
+    "NAME": "Рванный коврик",
+    "FLAVOR": "Может ли любой, кто захочет, открыть свой магазин?",
     "DESCRIPTIONS": [
-      "You can sell potions to the Merchant.",
-      "Sell for ",
-      " Gold",
-      "I'll take it!",
-      "You got yourself a deal!",
-      "~What're~ ~ya~ ~sellin'?~",
-      "Ah! I'll buy it at a high price!",
-      "Gimme!",
-      "I'd be a fool @not@ to buy it!",
-      "You drive a hard bargain..."
+      "Вы можете продавать зелья Торговцу.",
+      "Продать за ",
+      " Золота",
+      "Покупаю!",
+      "Отличная сделка!",
+      "~Что~ ~же~ ~ты~ ~продашь~ ~мне?~",
+      "Куплю за дорого!",
+      "Отдай мне!",
+      "Я был бы глупцом, если @не@ купил это!",
+      "У тебя жёсткие условия сделок..."
     ],
     "NOTE_FOR_TRANSLATORS": "A couple of these are voice lines from the merchant in Resident Evil 4."
   },
   "reliquary:TridentHead": {
-    "NAME": "Trident Head",
-    "FLAVOR": "A part of the weapon wielded by the fabled Wave King.",
+    "NAME": "Голова трезубца",
+    "FLAVOR": "Часть оружия легендарного Короля волн.",
     "DESCRIPTIONS": [
-      "The first card you play on a single enemy each combat is copied to all other enemies."
+      "В каждом бою первая карта, которая играется на одного врага также играется на остальных врагов."
     ]
   },
   "reliquary:TuningFork": {
-    "NAME": "Tuning Fork",
-    "FLAVOR": "If you try eating with it, you're liable to break a tooth.",
+    "NAME": "Камертон",
+    "FLAVOR": "Вы сломаете зубы, если попытаесь есть с ним.",
     "DESCRIPTIONS": [
-      "Whenever you break an enemy's #yBlock exactly, deal #b",
-      " damage to it."
+      "Наносит #b",
+      " урона врагу, если ваша #yЗащита ровно заблокирует его Атаку"
     ]
   },
   "reliquary:WeakTea": {
-    "NAME": "Weak Tea",
-    "FLAVOR": "If you can sleep after drinking it, what's the point?",
+    "NAME": "Некрепкий чай",
+    "FLAVOR": "Если ты сможешь уснуть после него, то какой смысл в нём?",
     "DESCRIPTIONS": [
-      "The first Colorless card you play each combat costs #b1 less.",
-      "The first #b",
-      " Colorless cards you play each combat cost #b1 less."
+      "В каждом бою первая сыгранная Бесцветная карта стоит на #b1 меньше.",
+      "В каждом бою первые #b",
+      " сыгранные Бесцветные карты стоят на #b1 меньше."
     ]
   },
   "reliquary:WritOfMandamus": {
-    "NAME": "Writ of Mandamus",
-    "FLAVOR": "It begins, \"Whatever you're thinking about doing: hold it, mister.\"",
+    "NAME": "Письмо Рустама",
+    "FLAVOR": "Начинается с: \"Если вы думаете сделать что-то, то не торопитесь.\"",
     "DESCRIPTIONS": [
-      "Gain [E] at the start of your turn. At the end of your turn, you lose #b",
-      " #yBlock."
+      "Даёт [E] в начале вашего хода. В конце хода вы теряете #b",
+      " #yЗащиты."
     ],
     "NOTE_FOR_TRANSLATORS": "'Mandamus' is just a made-up name."
   }
