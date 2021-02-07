@@ -2,5 +2,5 @@
 Инструкция:
 Файлы из папки rus переместить по данному путю
 
-C:\ ... \Steam\steamapps\workshop\ ... \Reliquary.jar\reliquaryAssets\localization\eng
+C:\ ... \Steam\steamapps\workshop\ ... \Reliquary.jar\reliquaryAssets\localization\rus
 
