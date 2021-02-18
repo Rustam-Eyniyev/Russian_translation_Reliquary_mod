@@ -15,6 +15,44 @@
       "Добавляет в колоду #yОтблеск\u00a0стали или #yЛовкость\u00a0рук при каждой перетасовке."
     ]
   },
+  "reliquary:BigHammer": {
+    "NAME": "Big Hammer",
+    "FLAVOR": "Truly, it is the biggest hammer you have ever seen.",
+    "DESCRIPTIONS": [
+      "You may upgrade #rRed cards a second time.",
+      "Deal !D! damage. NL Add a copy of this card into your discard pile. NL Deals !M! additional damage for each Anger in your discard pile.",
+      "Gain !B! Block. NL Upgrade all cards in your hand twice for the rest of combat.",
+      "Innate. NL Block is not removed at the start of your turn.",
+      "Gain !M! Vulnerable next turn. NL At the start of your turn, gain [R].",
+      "Lose 3 HP. NL Gain [R] [R] [R] [R].",
+      "Deal damage equal to %d%% of your Block.",
+      "Innate. NL At the start of your turn, lose !M! HP and draw !M! cards.",
+      "At the end of your turn, lose 1 HP, deal !M! damage to ALL enemies, then increase this damage by %d.",
+      "Innate. NL Skills cost 0. NL Whenever you play a Skill, Exhaust it.",
+      "Whenever a card is Exhausted or you play a Power card, draw 1 card.",
+      "Deal !D! damage. If the enemy has Vulnerable, gain [R] and draw 1 card, otherwise apply 1 Vulnerable.",
+      "Choose an Attack or Power card. Add !M! copies of that card into your hand.",
+      "Triple your Block.",
+      "Increase your max hand size by %d. NL Whenever you draw a Status card, draw !M! cards.",
+      "Put a card from your exhaust pile into your hand and Upgrade it. NL Exhaust.",
+      "Gain !M! Strength. NL At the end of %d turns, lose !M! Strength.",
+      "Play the top !M! cards of your draw pile and Exhaust them.",
+      "Add a random Attack into your hand. NL It costs 0 this turn.",
+      "Triple your Strength.",
+      "Lose 6 HP. NL Gain [R] [R] [R]. NL Draw !M! cards. NL Exhaust.",
+      "Deal !D! damage. NL Add a *Dazed into your discard pile.",
+      "Gain [R] [R] [R]. NL Exhaust.",
+      "Gain !B! Block. NL If this card is Exhausted, gain NL [R] [R] [R] and draw !M! cards.",
+      "Deal !D! damage and apply !M! Vulnerable to ALL enemies.",
+      "Gain !B! Block. NL Exhaust between 1 and !M! cards.",
+      "Deal !D! damage to ALL enemies X+%d times."
+    ],
+    "NOTE_FOR_TRANSLATORS": [
+      "These are second upgrades, so all but the first string are slight variants of Ironclad cards.",
+      "Refer to the indices at the top of https://github.com/thquinn/Reliquary/blob/main/src/main/java/relics/RelicBigHammer.java",
+      "to see which string corresponds to which Ironclad card. Indices start at 0!"
+    ]
+  },
   "reliquary:BoilingFlask": {
     "NAME": "Кипящая колба",
     "FLAVOR": "Кипящая колба с закругленным дном, пять тысяч миллиметров!",
@@ -43,7 +81,7 @@
     "NAME": "Сломанные часы",
     "FLAVOR": "Это неправильно только два раза в день, но почему-то в остальное время это правильно.",
     "DESCRIPTIONS": [
-      "Каждый бой начинается с двух ваших ходов, а потом у врагов два хода."
+      "Каждый бой вы и враги начинаете с дополнительным ходом."
     ]
   },
   "reliquary:Buckler": {
@@ -56,14 +94,21 @@
       "Эта реликвия израходована."
     ]
   },
+  "reliquary:CitrusReamer": {
+    "NAME": "Citrus Reamer",
+    "FLAVOR": "Why squeeze when you can ream?",
+    "DESCRIPTIONS": [
+      "The first time each turn you have #b",
+      " cards in hand, gain [E] ."
+    ]
+  },
   "reliquary:Conveyor": {
     "NAME": "Конвейер",
     "FLAVOR": "Бери с собой куда захочешь.",
     "DESCRIPTIONS": [
       "В начале вашего хода, #yЗаряжает тот тип сфер, которых Заряжено #b",
       " или более."
-    ],
-    "NOTE_FOR_TRANSLATORS": "This is a conveyor block from the game Infinifactory."
+    ]
   },
   "reliquary:Craggleroot": {
     "NAME": "Корень Крэггла",
@@ -85,8 +130,7 @@
     "FLAVOR": "Победа будет за вами... в конце концов.",
     "DESCRIPTIONS": [
       "Множитель урона #yБожественности повышается на #b1 до конца боя каждый раз при выходе из #yБожественности."
-    ],
-    "NOTE_FOR_TRANSLATORS": "https://en.wikipedia.org/wiki/Dhvaja"
+    ]
   },
   "reliquary:Ember": {
     "NAME": "Горячий уголёк",
@@ -100,8 +144,8 @@
     "NAME": "Истёкший купон",
     "FLAVOR": "Хорошая 10% скидка на, чтобы \"надрать задницу.\" Кто вообще это напечатал?",
     "DESCRIPTIONS": [
-      "Каждый раз, когда вы получаете #b",
-      " или больше незаблокированного урона за бой, наносит #b",
+      "Каждый раз, когда вы наносите #b",
+      " или больше незаблокированного урона по ОЗ, наносит #b",
       " урона ВСЕМ врагам."
     ]
   },
@@ -111,31 +155,44 @@
     "DESCRIPTIONS": [
       "При получении вы удалите любое количество выбранных карт, кроме Ударов, Оборон и #rПроклятий.",
       "Выберите любое количество карт для удаления."
-    ],
-    "NOTE_FOR_TRANSLATORS": "The flavor text is a made-up quote by a made-up person."
+    ]
   },
   "reliquary:FerryPass": {
     "NAME": "Билет на паром",
     "FLAVOR": "Здесь написано: \"Наслаждайтесь путешествием на Остров Рустама!\"",
     "DESCRIPTIONS": [
-      "Когда вы сыграете все уникальные карты, кроме #rПроклятий, в вашей колоде, за один бой, то эта реликивия уничтожится и в наградах за этот бой вам будет доступна #yРедкая реликвия.",
-      "Сыграйте все #b",
-      " уникальные карты, кроме #rПроклятий, в вашей колоде, чтобы обменять его на #yРедкую реликвию.",
+      "Обменивается на #yРедкую реликвию в конце боя, если в течение боя вы сыграете все уникальные играбельные карты в вашей колоде.",
+      "В этом бою сыграйте все #b",
+      " уникальные играбельные карты в вашей колоде, чтобы обменять его на #yРедкую реликвию.",
       "Сыграйте #b",
-      " ещё уникальных карт в этом бою, чтобы обменять его на #yРедкую реликвию.",
+      " ещё уникальных играбельных карт в этом бою, чтобы обменять его на #yРедкую реликвию.",
       "Сыграйте ",
       ", и ",
       " и ",
       " , чтобы обменять его на #yРедкую реликвию.",
       " NL [#2aecd7]Нажмите [#2aecd7]Правой [#2aecd7]кнопкой [#2aecd7]мыши [#2aecd7], [#2aecd7]чтобы [#2aecd7]показать [#2aecd7]несыгранные [#2aecd7]уникальные [#2aecd7]карты.[]"
-    ],
-    "NOTE_FOR_TRANSLATORS": "'Every unique card' means every card with a different name. The upgradedness doesn't matter, i.e. 'Strike' and 'Strike+' are the same unique card."
+    ]
+  },
+  "reliquary:FingerTrap": {
+    "NAME": "Finger Trap",
+    "FLAVOR": "Maybe if you chilled out for a second, you could get it off.",
+    "DESCRIPTIONS": [
+      "You can't lose HP during your turn."
+    ]
   },
   "reliquary:Firecrackers": {
     "NAME": "Петарды",
     "FLAVOR": "Создают настоящий взрыв. Дети, держите их подальше отсюда!",
     "DESCRIPTIONS": [
       "Урон, от которого враг погибает, наносится так же и случайному врагу."
+    ]
+  },
+  "reliquary:GummyVitamins": {
+    "NAME": "Жевательные витаминки",
+    "FLAVOR": "Очень липкие",
+    "DESCRIPTIONS": [
+      "Один раз за ход, вы можете взять карту, затем замешивает #rСлизь в стопку добора.",
+      "Я уже использовал это в этом ходу."
     ]
   },
   "reliquary:HotPoker": {
@@ -173,8 +230,7 @@
     "FLAVOR": "Смотрелось бы круто сзади кожанной куртки.",
     "DESCRIPTIONS": [
       "#yЯд срабатывает сразу, когда вы накладываете #yЯд первый раз за ход на врага."
-    ],
-    "NOTE_FOR_TRANSLATORS": "This is the symbol of the motorcycle gang from Akira."
+    ]
   },
   "reliquary:KinkedSpring": {
     "NAME": "Перекрученная пружина",
@@ -189,8 +245,7 @@
     "DESCRIPTIONS": [
       "Накладывает на врага #yСлабость, если у врага здоровье #b",
       "% или меньше."
-    ],
-    "NOTE_FOR_TRANSLATORS": "A knoch is just a fishing sinker: https://en.wikipedia.org/wiki/Fishing_sinker"
+    ]
   },
   "reliquary:LoveEmittingDiode": {
     "NAME": "Любвоизлучающий диод",
@@ -198,8 +253,7 @@
     "DESCRIPTIONS": [
       "Положительный #yФокус действует на самую правую сферу #b",
       " раза."
-    ],
-    "NOTE_FOR_TRANSLATORS": "This is a play on light-emitting diodes, or LEDs."
+    ]
   },
   "reliquary:MedicineBall": {
     "NAME": "Медицинский мяч",
@@ -215,8 +269,7 @@
       "Каждый раз, при выходе из #yБожественности, дает #b",
       " #yМантры за каждый вход в #yБожественность в этом бою (макс. - ",
       " )."
-    ],
-    "NOTE_FOR_TRANSLATORS": "This is a Newton's Cradle. 'Mudwin' is just a dumb name made up to sound like 'Newton.'"
+    ]
   },
   "reliquary:NewFriend": {
     "NAME": "Новый друг",
@@ -257,8 +310,7 @@
     "DESCRIPTIONS": [
       "Удвавивает первые X получаемой #yЗащиты в каждом бою, где X это #b",
       " умноженное на номер текущего Акта."
-    ],
-    "NOTE_FOR_TRANSLATORS": "This is the headgear of the Prince of All Cosmos from the Katamari Damacy series."
+    ]
   },
   "reliquary:PurpleTingedLeaf": {
     "NAME": "Лист с пурпурным оттенком",
@@ -322,16 +374,30 @@
     "FLAVOR": "Варлоку заплатите чеканной монетой.",
     "DESCRIPTIONS": [
       "Даёт [E] на следующий ход, если ваша #yЗащита ровно заблокирует Атаку ВСЕХ врагов."
+    ]
+  },
+  "reliquary:RustamsPendant": {
+    "NAME": "Бриллиантовая сова Рустама",
+    "FLAVOR": "Казалось, что это обычная награда, однако она явно что-то знает о тебе",
+    "DESCRIPTIONS": [
+      "Даёт [E] в начале вашего хода. Для каждого персонажа имеет различные эффекты.",
+      "Даёт [E] в начале вашего хода. Вы начинаете каждой бой с #b",
+      " #yСилы.",
+      " #yЛовковсти.",
+      " #yФокуса.",
+      " #yПреданности. Когда вы накапливаете #b",
+      " #yМантры, вы переходите в #yИскупление.",
+      "В начале вашего хода, отнимает #b",
+      " #yМантры."
     ],
-    "NOTE_FOR_TRANSLATORS": "The flavor text is a reference to the song 'Wonderwall' by Oasis."
+    "NOTE_FOR_TRANSLATORS": "This relic is named after our wonderful RUS translator!"
   },
   "reliquary:SculptingSteel": {
     "NAME": "Стальная скульптура",
     "FLAVOR": "Тягучая как клей и тяжелая как камень.",
     "DESCRIPTIONS": [
       "При получении становится копией случайной Обычной, #bНеобычной, #yРедкой, или реликвии #yТорговца, среди тех, которые у вас уже есть."
-    ],
-    "NOTE_FOR_TRANSLATORS": "This is a reference to the Magic card Sculpting Steel, which has some existing translations: https://scryfall.com/search?q=%21%E2%80%9CSculpting+Steel%E2%80%9D+set%3A2xm+lang%3Aany&unique=prints"
+    ]
   },
   "reliquary:SharkskinSheath": {
     "NAME": "Ножна из акульей кожи",
@@ -345,8 +411,7 @@
     "FLAVOR": "Он может взорваться в любой момент.",
     "DESCRIPTIONS": [
       "Сферы #yМолнии бьют по врагу с наименьшим ОЗ."
-    ],
-    "NOTE_FOR_TRANSLATORS": "To have a 'short fuse' means you get angry easily."
+    ]
   },
   "reliquary:Sideboard": {
     "NAME": "Дополнительная колода",
@@ -358,11 +423,6 @@
       " NL [#2aecd7]Нажмите [#2aecd7]Правой [#2aecd7]кнопкой [#2aecd7]мыши [#2aecd7]для [#2aecd7]отключения [#2aecd7]действия [#2aecd7]реликвии .[]",
       " NL [#2aecd7]Нажмите [#2aecd7]Правой [#2aecd7]кнопкой [#2aecd7]мыши [#2aecd7]для [#2aecd7]включения [#2aecd7]действия [#2aecd7]реликвии.[]",
       "Выберите карту для добавления в вашу основную колоду."
-    ],
-    "NOTE_FOR_TRANSLATORS": [
-      "This is a reference to 'sideboards' in Magic the Gathering. It's a wooden board... this pun may not translate.",
-      "You may find the term used for sideboards in other languages here: https://blogs.magicjudges.org/translatedrules/",
-      "in the Comprehensive Rules, rule 100.4. The complete rules document might be on the second page."
     ]
   },
   "reliquary:SilkGlove": {
@@ -371,6 +431,15 @@
     "DESCRIPTIONS": [
       "Если в конце хода остается в руке одна карта, то она не сбрасывается, а #yОставляется."
     ]
+  },
+  "reliquary:Sod": {
+    "NAME": "Кусочек земли",
+    "FLAVOR": "Вопреки ожиданиям, трава не становится зеленее, если её перевернуть.",
+    "DESCRIPTIONS": [
+      "Добавляет в руку #yУлучшенную копию каждой #b",
+      "-ой неулучшенной разыгранной карты."
+    ],
+    "NOTE_FOR_TRANSLATORS": "The flavor text is a joke about the saying 'the grass is always greener on the other side.'"
   },
   "reliquary:Solitaire": {
     "NAME": "Солитер",
@@ -399,12 +468,16 @@
       "Даёт !B! Защиты. NL След. разыгранная Атака стоит 0 и наносит на !M! больше урона.",
       "Остааляется. NL Перейти в Спокойствие.",
       "Вы берёте !M! доп. карту на следующий ход. Вы получаете дополнительный ход. NL Завершает ваш ход. NL Сжигается.",
-      "Оставляется. NL Даёт !M! Мантры и повышает это кол-во на %d (макс. %d) в этом бою, когда Оставляется."
-    ],
-    "NOTE_FOR_TRANSLATORS": [
-      "These are second upgrades, so all but the first string are slight variants of Watcher cards.",
-      "Refer to the indices at the top of https://github.com/thquinn/Reliquary/blob/main/src/main/java/relics/RelicSolitaire.java",
-      "to see which string corresponds to which Watcher card."
+      "Оставляется. NL Даёт !M! Мантры и повышает это кол-во на %d (макс. %d) в этом бою, когда Оставляется.",
+      "Enter Wrath. NL Deal !D! damage."
+    ]
+  },
+  "reliquary:Spinner": {
+    "NAME": "Спиннер",
+    "FLAVOR": "Только не на красное, пожалуйста, только не на красное... Вот чёрт!",
+    "DESCRIPTIONS": [
+      "Даёт #b",
+      " #yЗащиты, когда вы разыгрываете карту, которая отличается от предыдущей."
     ]
   },
   "reliquary:Stiletto": {
@@ -436,14 +509,22 @@
       "Отдай мне!",
       "Я был бы глупцом, если @не@ купил это!",
       "У тебя жёсткие условия сделок..."
+    ]
+  },
+  "reliquary:ThirdArm": {
+    "NAME": "Third Arm",
+    "FLAVOR": "It's tiny, and it doesn't even have fingers.",
+    "DESCRIPTIONS": [
+      "Start each combat with a cost #b",
+      " #yPower in your draw pile that gives you [E] every turn."
     ],
-    "NOTE_FOR_TRANSLATORS": "A couple of these are voice lines from the merchant in Resident Evil 4."
+    "NOTE_FOR_TRANSLATORS": "This is the arm from a wooden figure-drawing manikin."
   },
   "reliquary:TridentHead": {
     "NAME": "Голова трезубца",
     "FLAVOR": "Часть оружия легендарного Короля волн.",
     "DESCRIPTIONS": [
-      "В каждом бою первая карта, которая играется на одного врага, также играется на остальных врагов."
+      "В каждом бою первая карта, которая играется на одного врага, так же играется на остальных врагов."
     ]
   },
   "reliquary:TuningFork": {
@@ -452,6 +533,17 @@
     "DESCRIPTIONS": [
       "Наносит #b",
       " урона врагу, если ваша #yЗащита ровно заблокирует его Атаку."
+    ]
+  },
+  "reliquary:Vitrine": {
+    "NAME": "Витрина",
+    "FLAVOR": "Идеальное место, чтобы представить свои самые ценные вещи.",
+    "DESCRIPTIONS": [
+      "При получении удалите карту из колоды. Во время боя вы можете замешать эту карту в стопку добора.",
+      "Выберите картку для удаления",
+      "[#2aecd7]Нажмите [#2aecd7]Правой [#2aecd7]кнопкой [#2aecd7]мыши, чтобы замешать",
+      " в стопку добора.",
+      " вернётся обратно сюда после боя."
     ]
   },
   "reliquary:WeakTea": {
@@ -469,7 +561,6 @@
     "DESCRIPTIONS": [
       "Даёт [E] в начале вашего хода. В конце хода вы теряете #b",
       " #yЗащиты."
-    ],
-    "NOTE_FOR_TRANSLATORS": "'Mandamus' is just a made-up name."
+    ]
   }
 }
